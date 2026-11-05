@@ -1,0 +1,1 @@
+cmd_/home/sa/driver_lab/simple-module.ko := ld -r  -m elf_x86_64  --build-id=sha1  -T scripts/module.lds -o /home/sa/driver_lab/simple-module.ko /home/sa/driver_lab/simple-module.o /home/sa/driver_lab/simple-module.mod.o;  true
